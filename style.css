@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.577)
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 1rem;
+}
+.menu ul li{
+    padding: 40px 41px 30px 41px;
+    transition: 0.6s;
+}
+.menu ul li:hover{
+ background-color: rgba(56, 87, 122, 1);
+}
+.menu ul li a{
+    color: white;
+
+}
+.logo a{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.logo span{
+    color: #ff9000;;
+}
+#first{
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Banner-bg.jpg);
+    width: 100%;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+   padding-top: 12rem;
+   display: flex;
+}
+.figure img{
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+    margin-top: 6.5rem;
+}
+.cont{
+    width: 350px;
+    height: 450px;
+    padding-top: 12rem;
+}
+.main{
+    display: flex;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.cont h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+.cont span{
+    color: #ff9000;
+}
+.cont p{
+    color: white;
+    padding: 1rem 0 2.5rem 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cont a{
+    background-color: rgba(64, 93, 118, 0.8);
+    border: solid 2px #b0bdc8;
+    padding: 11px 16px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.cont a:hover{
+    background-color: #ff9000;
+}
+.text{
+    display: flex;
+    width: 750px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: space-between;
+    margin-top: -2rem;
+    color: white;
+    align-items: center;
+position: absolute;
+bottom: -2.2rem;
+
+}
+.text ul {
+    display: flex;
+ gap: 2rem;
+ padding-left: 3rem;
+}
+.text span{
+    color: #ff9000;
+   text-align: end;
+   font-size: 17px;
+}
+.text p{
+   display: flex;
+   flex-direction: column;
+padding-right: 3rem;
+font-size: 25px;
+font-weight: 500;
+}
+.text i{
+    color: #fff;
+    border-radius: 50%;
+    padding: 13px;
+    border: solid 2px #fff;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.text i:hover{
+    background-color: #ff9000;
+    border: none;
+}
+.About{
+    padding-top: 15rem;
+    width: 100%;
+       
+}
+.us{
+    width: 70%;
+    margin: 0% auto;
+}
+.us h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 50px;
+    font-weight: 600;
+}
+.us p{
+    color: #979797;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.us span{
+    display: flex;
+    padding: 5px 190px 32px 190px;
+}
+.line{
+    width: 252px;
+    height: 2.2px;
+    margin: 0 auto;
+    border: solid 1px #ff9408;
+    margin-bottom: 2rem;
+}
+.tab{
+    display: flex;
+margin-top: 7rem;
+}
+.tab ul{
+    display: flex;
+    margin: 0 auto;
+}
+.tab ul li a{
+    font-size: 18px;
+    color: #989898;
+    padding: 14px 40px 13px 40px;
+    font-weight: 400;
+    transition: 0.3s;
+    border: solid 1px #d5d5d5;
+}
+.tab ul li a:hover{
+    background-color: #ff9408;
+    color: white;
+}
+.more{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+}
+.picture{
+    position: relative;
+    width: 500px;
+}
+.img2{
+    margin-top: 8rem;
+    position: absolute;
+    left: 3rem;
+    border: solid 5px #ececec;
+}
+.img1{
+    margin-top: 5rem;
+    position: absolute;
+    left: 6rem;
+    border: solid 5px #ececec;
+}
+.pictext p{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+.pictext{
+    width: 600px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.pictext h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000;
+
+}
+.pictext span{
+    font-size: 17px;
+    color: #ff9000;
+}
+.pictext p{
+    color: #979797;
+    padding: 1rem 0;
+    line-height: 25px;
+    font-size: 17px;
+}
+#for{
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Services-bg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.For{
+    padding-top: 6rem;
+    width: 100%;
+       
+}
+.forus{
+    width: 70%;
+    margin: 0% auto;
+}
+.forus h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.forus p{
+    color: #d8dfe5;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.forus span{
+    display: flex;
+    padding: 5px 190px 32px 190px;
+}
+.box{
+    position: relative;
+    padding-top: 3rem;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.box ul li a{
+    border-color: red;
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Development-cn.png)
+    top center; no-repeat;
+}
+li.sek1{
+    position: relative;
+}
+li.sek1 a{
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Development-cn.png);
+    width: 100%;
+    height: 200px;
+    color: #03a4df;
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    
+}
+li.sek1 a h4{
+    position: absolute;
+    top: 140px ;
+}
+li.sek2{
+    position: relative;
+}
+li.sek2 a{
+    background-image: url(https://templatemo.com/templates/templatemo_473_november/img/desgin-icn.png);
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+li.sek2 a h4{
+    position: absolute;
+    top: 140px ;
+    left: 30px;
+    color: #ffab3f;
+}
+li.sek3{
+    position: relative;
+}
+li.sek3 a{
+background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/concept-icn.png);
+width: 100%;
+height: 200px;
+display: block;
+background-repeat: no-repeat;
+position: absolute;
+top: 60px;
+left: 60px;
+}
+li.sek3 a h4{
+    position: absolute;
+    top: 140px ;
+    left: 30px;
+    color: #ae382d;
+}
+li.sek4{
+    position: relative;
+}
+li.sek4 a {
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/systam-icn.png);
+    width: 100%;
+height: 200px;
+display: block;
+background-repeat: no-repeat;
+position: absolute;
+top: 60px;
+left: 60px;
+}
+li.sek4 a h4{
+    position: absolute;
+    top: 140px ;
+    left: 30px;
+    color: #5e5f61;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+    display: flex;
+    padding-top: 3rem;
+    margin: 0 auto;
+    transition: 0.6s;
+   
+}
+.table ul{
+    display: flex;
+    transition: 0.6s;
+    
+}
+.table ul li{
+    padding: 20px;
+height:110px ;
+}
+.table ul li h5{
+    display: flex;
+    flex-direction: column;
+}
+.li1{
+    background-color: #ff9408;
+    transition: 0.6s;
+}
+
+.li1:hover{
+    background-color: #2D2D2D;
+    color: white;
+}
+.li2{
+    background-color: #2D2D2D;
+    color: #ff9408;
+    transition: 0.6s;
+    
+}
+.table ul li h5{
+    color: #979797;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.6s;
+
+}
+
+.table ul li h5 span{
+padding-top: 5px;
+}
+
+.table ul:hover{
+    background-color: #2D2D2D;
+}
+.table ul li h4{
+    background-color: #2D2D2D;
+    padding: 35px;
+    transition: 0.6s;
+    color: white;
+    transition: 0.6s;
+}
+.li1 h3{
+    width: 20px;
+    rotate: 270deg;
+    transition: 0.6s;
+}
+.table:hover .li1{
+background-color: #2D2D2D;
+color: white;
+}
+.table:hover h4{
+    background-color: #ff9408;
+}
+.table:hover .li2{
+    background-color: #ff9408;
+    color: white;
+}
+.table:hover h5{
+color: white;
+}
+#six{
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Contact-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#six .For{
+    margin-top: 7rem;
+    height: 350px;
+}
+.End{
+    background-image: url(	https://templatemo.com/templates/templatemo_473_november/img/Get-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+}
+.div1{
+    background-image: url(https://templatemo.com/templates/templatemo_473_november/img/location-icn.png);
+    background-repeat: no-repeat;
+}
+.map{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
+input{
+    padding-left: 10px;
+    border: none;
+    width: 550px;
+    height: 60px;
+}
+.mes{
+    width: 550px;
+    height: 150px;
+}
+.sub{
+    background-color:#e2850a ;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.sub:hover{
+    background-color: #2D2D2D;
+    text-align: center;
+}
+.adress{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    
+}
+.adress h2{
+    font-size: 35px;
+    color: #f88e04;
+}
+.div1 p{
+    display: flex;
+   margin-top: 2rem;
+   padding-left: 3.5rem;
+   color: white;
+   font-size: 17px;
+   font-weight: 400;
+}
+.icn ul{
+    display: flex;
+    margin-top: 5rem;
+    gap: 1rem;
+    object-fit: cover;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.foot{
+    width: 100%;
+    background-color: rgb(0 0 0 / 65%);
+    height: 120px;
+}
+.foot p{
+    color: #a9abad;
+    text-align: center;
+    padding: 3rem;
+}
+.foot a{
+color: #a9abad;
+}
